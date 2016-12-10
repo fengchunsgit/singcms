@@ -11,5 +11,7 @@ class LoginController extends Controller {
 
     	return $this->display();
     }
-
+    public function check(){
+      return echo 'success';
+    }
 }
