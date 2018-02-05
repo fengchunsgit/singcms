@@ -1,0 +1,17 @@
+[ 2017-12-03T20:50:03+08:00 ] ::1 /singcms/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016697s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007694s ]
+
